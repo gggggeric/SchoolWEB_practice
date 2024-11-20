@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UBNHS</title>
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+   
+    .carousel-inner img {
+      height: 500px; 
+      object-fit: cover; 
+      width: 100%; 
+    }
+    /* Styling for the logo image */
+    .navbar-brand img {
+      height: 50px; 
+      margin-right: 10px; 
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- School Logo and Name -->
+      <a class="navbar-brand" href="#">
+        <img src="logo.jpg" alt="School Logo">
+        UPPER BICUTAN NATIONAL HIGH SCHOOL
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="SW1_morit_geric.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Image Carousel Section -->
+  <section id="carousel" class="my-4">
+    <div id="schoolCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#schoolCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#schoolCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#schoolCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="upperhome1.jpeg" class="d-block w-100" alt="First Slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Welcome to Our School</h5>
+            <p>Fostering Excellence in Education</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="learning.jpg" class="d-block w-100" alt="Second Slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Holistic Learning Environment</h5>
+            <p>Encouraging both academic and personal growth</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="community.jpg" class="d-block w-100" alt="Third Slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Join Our Community Today</h5>
+            <p>Be part of a vibrant learning journey</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#schoolCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#schoolCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+    <!-- Strands Grid Section -->
+    <section id="strands" class="py-5 text-center">
+      <div class="container">
+        <h2>Our Academic Strands</h2>
+        <p>Explore the different academic strands offered at Upper Bicutan National High School.</p>
+        <div class="row mt-4">
+          <!-- GAS Strand -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="gas.jpg" class="card-img-top" alt="GAS">
+              <div class="card-body">
+                <h5 class="card-title">General Academic Strand (GAS)</h5>
+                <p class="card-text">Provides a balanced education in different fields, perfect for students exploring multiple disciplines.</p>
+              </div>
+            </div>
+          </div>
+  
+          <!-- HUMSS Strand -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="humms.jpg" class="card-img-top" alt="HUMSS">
+              <div class="card-body">
+                <h5 class="card-title">Humanities and Social Sciences (HUMSS)</h5>
+                <p class="card-text">Focuses on understanding human behavior, communication, and societal development.</p>
+              </div>
+            </div>
+          </div>
+  
+          <!-- STEM Strand -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="stem.jpg" class="card-img-top" alt="STEM">
+              <div class="card-body">
+                <h5 class="card-title">Science, Technology, Engineering, and Mathematics (STEM)</h5>
+                <p class="card-text">Offers a strong foundation in science and math, perfect for aspiring engineers and scientists.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+
+  <!-- Home Section -->
+  <section id="home" class="py-5 text-center">
+    <div class="container">
+      <h1>Welcome to Upper Bicutan National High School</h1>
+      <p>Welcome to Upper Bicutan National High School!
+
+        At UBNHS, we are dedicated to fostering a learning environment that prepares students for the challenges of the future. Our diverse academic programs provide students with a wide range of options tailored to their interests and career goals.
+        
+        General Academic Strand (GAS): Designed for students who prefer a broad exploration of various disciplines, GAS allows flexibility and offers a balanced academic experience across different fields of study.
+        
+        Science, Technology, Engineering, and Mathematics (STEM): For students passionate about innovation, problem-solving, and scientific exploration, the STEM strand provides a solid foundation in math and science, preparing them for careers in technology and engineering.
+        
+        Humanities and Social Sciences (HUMSS): If your interests lie in understanding society, culture, and human behavior, the HUMSS strand empowers students with skills in communication, critical thinking, and social awareness, perfect for careers in education, social work, or politics.
+        
+        At Upper Bicutan National High School, we strive to nurture future leaders through academic excellence, holistic development, and a strong sense of community. Join us and discover your path to success!</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5 bg-light text-center">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Our school is committed to nurturing academic excellence and holistic growth.</p>
+    </div>
+  </section>
+
+  <!-- Admissions Section -->
+  <section id="admissions" class="py-5 text-center">
+    <div class="container">
+      <h2>Admissions</h2>
+      <p>Enroll in our programs today and become part of our community of learners.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-light text-center">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Feel free to reach out with any questions or inquiries.</p>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
